@@ -3,7 +3,7 @@ export default function Entry() {
     <article className="journal-entry">
       <div className="main-image-container">
         <img
-          src="/src/istockphoto-1137578281-612x612.jpg"
+          src="/src/Fuji mountain.jpeg"
           alt="m
       Mount-Fuji"
         />
