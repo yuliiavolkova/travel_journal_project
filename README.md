@@ -1,12 +1,19 @@
-# React + Vite
+Travel Journal Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that showcases a travel journal with different destinations. The project focuses on practicing React components and props to dynamically render travel entries.
 
-Currently, two official plugins are available:
+Features:
+Reusable components for structured and scalable UI
+Props to dynamically pass data into components
+Basic CSS styling for a clean design
+This project is a part of my learning journey in React and frontend development. 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проєкт "Журнал подорожей"
 
-## Expanding the ESLint configuration
+Це простий React-проєкт, який демонструє журнал подорожей з різними місцями. Основна мета – практика використання React-компонентів і props для динамічного рендерингу записів про подорожі.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Функціонал:
+Повторно використовувані компоненти для чистого та масштабованого коду
+Props для передачі даних у компоненти
+Базова CSS-стилізація для гарного вигляду
+Цей проєкт є частиною мого навчання React і фронтенд-розробки. 🚀
