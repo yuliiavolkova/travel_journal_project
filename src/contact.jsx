@@ -1,15 +1,15 @@
-export default function contact() {
+export default function contact(props) {
   return (
     <article className="contact-card">
-      <img src="./mr-whiskerson.png" alt="Photo of Mr. Whiskerson" />
-      <h3>Mr. Whiskerson</h3>
+      <img src={props.img} alt="Photo of Mr. Whiskerson" />
+      <h3>{props.name}</h3>
       <div className="info-group">
-        <img src="./phone-icon.png" alt="phone icon" />
-        <p>(212) 555-1234</p>
+        <img src="/src/phone-icon.png" alt="phone icon" />
+        <p>{props.phone}</p>
       </div>
       <div className="info-group">
-        <img src="./mail-icon.png" alt="mail icon" />
-        <p>mr.whiskaz@catnap.meow</p>
+        <img src="/src/mail-icon.png" alt="mail icon" />
+        <p>{props.email}</p>
       </div>
     </article>
   );
