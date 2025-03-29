@@ -1,4 +1,16 @@
-import Contact from "./contact";
+import Header from "./components/Header";
+import Entry from "./components/Entry";
+
+export default function App() {
+  return (
+    <>
+      <Header />
+      <Entry />
+    </>
+  );
+}
+
+/*import Contact from "./contact";
 
 function App() {
   return (
@@ -30,7 +42,7 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App;*/
 
 /*import Jokes from "./components/Jokes";
 
