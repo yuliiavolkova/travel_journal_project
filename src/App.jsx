@@ -20,11 +20,22 @@ export default function App() {
   );
 }
 
+/*import Jokes from "./components/Jokes";
+import jokesData from "./jokesData";
+
+export default function App() {
+  const jokeElements = jokesData.map((joke) => {
+    return <Jokes setup={joke.setup} punchline={joke.punchline} />;
+  });
+  return <main>{jokeElements}</main>;
+}*/
+
 /*import Contact from "./contact";
 
 function App() {
   return (
     <div className="contacts">
+
       <Contact
         img="/src/mr-whiskerson.png"
         name="Mr. Whiskerson"
